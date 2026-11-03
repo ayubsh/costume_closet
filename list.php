@@ -28,6 +28,7 @@ $result = mysqli_query($conn, $sql);
 <td><?php echo $row["borrower"]; ?></td>
 <td><?php echo $row["due_date"]; ?></td>
 <td><?php echo $row["returned"]; ?></td>
+<td><a href="update.php?id=<?php echo $row["id"]; ?>">Mark returned</a></td>
 <td><a href="delete.php?id=<?php echo $row["id"]; ?>">Delete</a></t
 </tr>
 
