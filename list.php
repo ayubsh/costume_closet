@@ -34,5 +34,10 @@ $result = mysqli_query($conn, $sql);
 
 </table>
 
-<?php mysqli_close($conn); ?>
+<?php 
+
+if (mysqli_num_rows($result) == 0) { echo "No loaned items found."; }
+
+mysqli_close($conn); 
+?>
 
