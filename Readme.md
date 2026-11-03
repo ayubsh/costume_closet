@@ -2,5 +2,5 @@
 
 - lab costume closet
 
-[List of items](./img1.png)
-[DB](./img2.png)
+![List of items](./img1.png)
+![DB](./img2.png)
